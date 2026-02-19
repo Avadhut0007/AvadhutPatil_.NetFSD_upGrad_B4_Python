@@ -1,0 +1,104 @@
+<!-- Sakshi_Jadhav_Day2_HandsOn_HTML5_Problem1 -->
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home Page</title>
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+
+   <header class="navbar">
+    <div class="logo">Welcome to Student Portal</div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="home.html">Home</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+   
+  </nav>
+   </header>
+  
+
+  <hr />
+
+  <!-- Registration Form -->
+   <div class="container">
+    <h2>Student Registration Form</h2>
+
+  <form action="success.html" method="post">
+
+   
+    <label for="name">Name:</label>
+    <input 
+      type="text" 
+      id="name" 
+      name="name" 
+      required 
+      placeholder="Enter your name" 
+    />
+    <br><br>
+
+    
+    <label for="email">Email:</label>
+    <input 
+      type="email" 
+      id="email" 
+      name="email" 
+      required 
+      placeholder="Enter your email" 
+    />
+    <br><br>
+
+    <label for="password">Password:</label>
+    <input 
+      type="password" 
+      id="password" 
+      name="password" 
+      required 
+      placeholder="Enter your password" 
+    />
+    <br><br>
+
+   
+    <label>Gender:</label>
+    <input type="radio" name="gender" id="male" value="male" required>
+    <label for="male">Male</label>
+
+    <input type="radio" name="gender" id="female" value="female">
+    <label for="female">Female</label>
+
+    <input type="radio" name="gender" id="other" value="other">
+    <label for="other">Other</label>
+    <br><br>
+
+
+    <label for="course">Course Selection:</label>
+    <input 
+      type="text" 
+      id="course" 
+      name="course" 
+      list="courses" 
+      placeholder="Select a course" 
+      required
+    >
+
+    <datalist id="courses">
+      <option value="Web Development">
+      <option value="Mobile Development">
+      <option value="Data Science">
+    </datalist>
+
+    <br><br>
+
+   
+    <input type="submit" value="Submit">
+
+  </form>
+   </div>
+  
+
+</body>
+</html>
