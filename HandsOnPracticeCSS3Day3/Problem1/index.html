@@ -1,0 +1,64 @@
+<!-- SakshiJadhav_HandsOnPracticeProblem1CSS3 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Portal</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <header class="header">
+        <h1>Welcome to Student Portal</h1>
+        <p>This is a sample student portal page.</p>
+    </header>
+    <section class="info-section">
+        <h2>About Us</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel sapien eget nunc efficitur bibendum. Sed at ligula a enim efficitur commodo. Curabitur ac felis nec nisi convallis tincidunt.</p>
+    </section>
+    <div class="box">
+        <h3>Box Model Example</h3>
+        <p>This div demonstrates margin and padding properties.</p>
+    </div>
+     <div class="form-container">
+<form action="success.html" method="post">
+
+    <h2>Registration Form</h2>
+
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required placeholder="Enter your name"/>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required placeholder="Enter your email"/>
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required placeholder="Enter your password"/>
+
+    <label>Gender:</label>
+    <div class="radio-group">
+        <input type="radio" name="gender" id="male" value="male" required>
+        <label for="male">Male</label>
+
+        <input type="radio" name="gender" id="female" value="female">
+        <label for="female">Female</label>
+
+        <input type="radio" name="gender" id="other" value="other">
+        <label for="other">Other</label>
+    </div>
+
+    <label for="course">Course Selection:</label>
+    <input type="text" id="course" name="course" list="courses" placeholder="Select a course" required>
+
+    <datalist id="courses">
+        <option value="Web Development">
+        <option value="Mobile Development">
+        <option value="Data Science">
+    </datalist>
+
+    <input type="submit" value="Submit">
+
+</form>
+</div>
+</body>
+</html>
