@@ -1,0 +1,38 @@
+<!--SakshiJadhav HandsOnPracticeJSDay4 Problem5
+ Requirements
+Store a number in a variable.
+Use the conditional (ternary) operator to check whether the number is:
+Positive
+Negative
+Use an if–else statement to check whether the number is:
+Even
+Odd
+Use a loop to print all numbers from 1 to the given number -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Analysis Tool</title>
+</head>
+<body>
+    <h1>Number Analysis Tool</h1>
+    <script>
+        let number=10;
+        let result=number>0?document.writeln("Number is Positive"):document.writeln("Number is Negative");
+        document.writeln(result);
+        if(number%2==0){
+            document.writeln("Number is Even");
+        }
+        else{
+            document.writeln("Number is Odd");
+        }
+        for(let i=1;i<=number;i++){
+            document.writeln(i);
+            
+        }
+        
+    </script>
+</body>
+</html>
